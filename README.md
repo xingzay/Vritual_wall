@@ -8,7 +8,7 @@
     增加虚拟墙保存功能 -- rostopic pub /virtual_wall_save std_msgs/Empty {}"
     修改删除功能 -- rostopic pub  /delete_wall std_msgs/Int32 '0'  根据虚拟墙的id号来进行相应虚拟墙的删除 '0'-id
 
-
+   
 插件安装：
 
     下载该功能包放入Navigation功能包，使用catkin_make编译工作空间
